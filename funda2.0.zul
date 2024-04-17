@@ -1,0 +1,65 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<?link rel="stylesheet" href="CSS/style2.0.css"/?>
+<zk xmlns="http://www.zkoss.org/2005/zul" xmlns:ce="https://zkframework.org/x/carousel">
+<vlayout class="motherLayout" apply="controller.Controller">
+<hlayout class="navbar"   style="background-color: lightblue;" >
+    <image class="banking" src="images/icon.png" width="170px" height="100px"/>
+    <label class="titles" >Banking Fundas</label>
+    <image class="pennant" src="images/Pennant-logo-color-1.png" width="180px" height="100px" ></image>
+</hlayout>
+
+<div class="footbar"  >
+
+<div class="leftbar">           
+    <div id="div"><label class="leftbarlabel">List Of Banks</label></div>
+    <div id="card1" class="card" ><image class="axislogo" src="images/axis-logo.jpg"></image></div>
+    <div id="card2" class="card" ><image class="bajaj" src="images/bajaj-finance-logo.jpg"></image></div>
+    <div id="card3" class="card" ><image class="lic" src="images/LIC-Housing-Finance-logo.png"></image></div>
+    <div id="card4" class="card" ><image class="sbi" src="images/sbi-logo.png"></image></div>
+    <div id="card5" class="card" ><image class="union" src="images/union-logo.png"></image></div>
+
+</div>
+            <div class="rightbar" id="rightbarid">
+                   <label id="bankName" />
+                    <!--   <grid width="70%" height="auto" style="margin-left: 100px;" >
+                    	 <auxhead>
+                    		<auxheader  colspan="3"><label id="auxheadbank" /></auxheader>
+                    		
+                    	</auxhead>
+                    	<columns>
+                    		<column label="loan type"/>
+                    		<column label="description"/>
+                    		<column label="rate of interest"/>
+                    	</columns>
+                    	<rows>
+                    		<row>
+                    			<label id="l1"/>
+                    			<label id="l2"/>
+                    			<label id="l3"/>
+                    		</row>
+                    		<row>
+                    			<label id="l11"/>
+                    			<label id="l22"/>
+                    			<label id="l33"/>
+                    		</row>
+                    	
+                    	</rows>
+                    </grid> 
+                    -->
+                
+                	
+            
+            </div>
+            
+            
+   	<div class="carousel" id="carouselid">
+    	<image src="images/bank1.jpg" />
+    	<image src="images/bank2.jpg"  />
+    	<image src="images/bank3.jpg"  />
+    	<image src="images/bank4.jpg"/>
+	</div>
+	
+</div>
+</vlayout>
+
+</zk>
