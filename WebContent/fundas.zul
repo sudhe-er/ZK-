@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="ZK Interface with Navigation Bar" contentType="text/html;charset=UTF-8"?>
+<zk>
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        .navbar-logo {
+            width: 50px;
+            height: 50px;
+        }
+
+        .navbar-title {
+            font-size: 24px;
+        }
+
+        .bank-list-item {
+        	width : 80px;
+            padding: 10px;
+            cursor: pointer;
+            background-color: #f4f4f4;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .bank-list-item:hover {
+            background-color: #ddd;
+        }
+    </style>
+    <vlayout>
+        <hbox class="navbar">
+            <image class="navbar-logo" src="/path/to/first_logo.png"/>
+            <label class="navbar-title" value="Title"/>
+            <image class="navbar-logo" src="/path/to/last_logo.png"/>
+        </hbox>
+        <hbox>
+            <vlayout>
+                <listbox>
+                    <listhead>
+                        <listheader label="Banks"/>
+                    </listhead>
+                    <listitem class="bank-list-item" onClick='Clients.showNotification("Action performed or content displayed")'>
+                        <listcell label="Bank 1"/>
+                    </listitem>
+                    <listitem class="bank-list-item" onClick='Clients.showNotification("Action performed or content displayed")'>
+                        <listcell label="Bank 2"/>
+                    </listitem>
+                    <listitem class="bank-list-item" onClick='Clients.showNotification("Action performed or content displayed")'>
+                        <listcell label="Bank 3"/>
+                    </listitem>
+                    <!-- Add more bank items as needed -->
+                </listbox>
+            </vlayout>
+            <vlayout>
+           		<div>hi bro
+           		</div>
+           		<div> bye bro</div>
+                <label value="Content to be displayed here"/>
+                <label>what is andlkadslaksnmdl dsf
+                 asdasd
+                 as
+                 d
+                 asdas
+                 d
+                 ads</label>
+            </vlayout>
+        </hbox>
+    </vlayout>
+</zk>

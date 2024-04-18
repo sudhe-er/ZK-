@@ -1,0 +1,190 @@
+@charset "ISO-8859-1";
+.motherLayout{
+    height: 100vh;
+    width: 100%;
+    overflow:auto;
+    
+}
+.navbar{
+    height: auto;
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+.banking{
+	border:none;
+	border-radius:10px;
+}
+.titles{
+	font-size: 2rem;
+    font-weight: lighter;
+    color:black;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+}
+.leftbarlabel{
+	font-size: 1.5rem;
+    font-weight: lighter;
+    color:black;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+}
+.footbar{
+	display:flex;
+}
+.leftbar{
+	height:520px;
+	width:50%;
+	display:grid;
+	gap:10px;
+	margin-left: 20px
+	
+	
+}
+.card {
+    height: 80px;
+    width: 65%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-out;
+  
+}
+
+.card:hover {
+    transform: scale(1.05);
+    height:150px;
+    background-size:cover;
+}
+.card img {
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    border-radius: 5px;
+}
+
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+ 
+.carousel {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  margin-top: 15vh;
+ 
+}
+ 
+.carousel > img {
+  position: absolute;
+  top: 0;
+  left: calc(25% - 100px);
+  opacity: 0;
+  animation: display 10s infinite;
+}
+ 
+.carousel img:nth-child(2) {
+  animation-delay: 2s;
+}
+.carousel img:nth-child(3) {
+  animation-delay: 4s;
+}
+.carousel img:nth-child(4) {
+  animation-delay: 6s;
+}
+
+
+.rightbar {
+    width: 100%;
+    height: 80vh;
+    overflow: auto;
+    position: relative;
+}
+
+/*.carousel img {
+    width:  100%;
+    height: 100%;
+    object-fit:contain;
+    position: absolute;
+    animation: slideShow 20s infinite;
+    opacity: 0;
+}
+
+
+
+@keyframes slideShow {
+    0%   {opacity: 0;}
+    7.5%  {opacity: 1;}
+    29%  {opacity: 1;}
+    36%  {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.carousel img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.carousel img:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.carousel img:nth-child(3) {
+    animation-delay: 8s;
+}
+.carousel img:nth-child(4) {
+    animation-delay: 14s;
+}*/
+
+/*.rightbar{
+	
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+}*/
+
+
+.bname{
+	text-align:center;
+	
+}
+.carousel image{
+	width: 660px;
+	height: 560px;
+}
+
+.banknamelabel {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+}
+.bankdescriptionlabel {
+    font-size: 1rem;
+}

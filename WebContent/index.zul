@@ -1,0 +1,8 @@
+<?page title="Auto Generated index.zul"?>
+<window xmlns="http://www.zkoss.org/2005/zul" title="Hello World!!" border="normal" width="auto">
+    <?link rel="stylesheet" href="CSS/style.css" /?>
+    <label value="You are using: ${desktop.webApp.version}"/>
+    <div id="high" sclass="div">this is a div</div>
+    <image src="images/Pennant-logo-color-1.png"  width="200px" height="100px"></image>
+    <textbox mold="rounded" placeholder="Enter your email address..."></textbox>
+</window>x

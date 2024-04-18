@@ -1,0 +1,21 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+    <?link rel="stylesheet" href="CSS/style.css" /?>
+	 <window border="none"> 
+	 	<style src=""></style>
+		<borderlayout  height="500px" width="auto">
+			<north >
+			<div class="navbar">
+				<!-- <image class="banking" src="images/bank-bank-building-branch_vyks9ofi_thumbnail-1080_01.png"/>
+				<label class="titles">Banking Fundas</label>
+				<image class="pennant" src="images/Pennant-logo-color-1.png" ></image> -->
+			</div>
+			</north>
+			  
+			<west >
+				<vlayout class="vlayout">vlayout</vlayout>
+			</west>
+			<center  autoscroll="true" >
+			
+			</center>
+		</borderlayout>
+	</window> 

@@ -1,0 +1,92 @@
+<?page  contentType="text/html;charset=UTF-8"?>
+<?link  rel="stylesheet" href="CSS/CardsStyles.css" /?>
+
+<zk>
+
+<panel height="700px" 
+            border="none" maximizable="true" closable="true"
+           collapsible="true" id="panel"  >
+        
+        <panelchildren style="overflow: auto;">
+        	<div  style=" display: flex; flex-direction: row;  flex-wrap:wrap;"  >
+        	
+        	<div class="axis" >
+        		<label id="home"></label>
+        		<label id="hdes"></label>
+        		<div class="container">
+    				<button class="my-button">Apply</button>
+				</div>
+        	</div>
+        	
+        	<div class="axis">
+        		<label id="personal"></label>
+        		<label id="pdes"></label>
+        		<div class="container">
+    				<button class="my-button">Apply</button>
+				</div>
+        	</div>
+        	<div class="axis">
+        		<label id="business"></label>
+        		<label id="bdes"></label>
+        		<div class="container">
+    				<button class="my-button">Apply</button>
+				</div>
+        	</div>
+        	<div class="axis">
+        		<label id="car"></label>
+        		<label id="cdes"></label>
+        		<div class="container">
+    				<button class="my-button">Apply</button>
+				</div>
+        	</div>
+        	<div class="axis">
+        		<label id="eduction"></label>
+        		<label id="edes"></label>
+        		<div class="container">
+    				<button class="my-button">Apply</button>
+				</div>
+        	</div>
+        	<div class="axis">
+        		<label id="gold"></label>
+        		<label id="gdes"></label>
+				<div class="container">
+    				<button class="my-button">Apply</button>
+				</div>
+        	</div>
+        	<div class="axis">
+        		<label id="property"></label>
+        		<label id="prodes"></label>
+        		<div class="container">
+    				<button class="my-button">Apply</button>
+				</div>
+        	</div>
+        	<div class="axis">
+        		<label id="insurence"></label>
+        		<label id="ides"></label>
+        		<div class="container">
+    				<button class="my-button">Apply</button>
+				</div>
+        	</div>
+        	<div class="axis">
+        		<label id="fixed"></label>
+        		<label id="fdes"></label>
+        		<div class="container">
+    				<button class="my-button">Apply</button>
+				</div>
+        	</div>
+        	<div class="axis">
+        		<label id="twowheeler"></label>
+        		<label id="twodes"></label>
+        		<div class="container">
+    				<button class="my-button">Apply</button>
+				</div>
+        	</div>
+        	
+        	
+        	
+        </div>
+        
+        </panelchildren>
+    </panel>
+   
+</zk>

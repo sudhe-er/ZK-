@@ -1,12 +1,13 @@
 package model;
 
 import java.util.List;
+import java.util.Map;
 
 public class bankdetails {
 	private String name;
-	private List<String> loansOffered;
+	private List<Map<String, String>> loansOffered;
 
-	public bankdetails(String name, List<String> loansOffered) {
+	public bankdetails(String name, List<Map<String, String>> loansOffered) {
 		this.name = name;
 		this.loansOffered = loansOffered;
 	}
@@ -19,11 +20,11 @@ public class bankdetails {
 		this.name = name;
 	}
 
-	public List<String> getLoansOffered() {
+	public List<Map<String, String>> getLoansOffered() {
 		return loansOffered;
 	}
 
-	public void setLoansOffered(List<String> loansOffered) {
+	public void setLoansOffered(List<Map<String, String>> loansOffered) {
 		this.loansOffered = loansOffered;
 	}
 
